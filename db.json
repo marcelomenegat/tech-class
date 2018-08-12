@@ -68,49 +68,29 @@
 				   { "id": 4,  "name": "Marcelo", "avatar": "" }
 				   ],			   
 	"studantbytutors": [{ "id": 1,  "id_studant": 1, "id_tutor": 1 }, 
-					{ "id": 2,  "id_studant": 2, "id_tutor": 1 }, 
-					{ "id": 3,  "id_studant": 3, "id_tutor": 1 }, 
-					{ "id": 4,  "id_studant": 4, "id_tutor": 1 }, 
+					{ "id": 2,  "id_studant": 2, "id_tutor": 1 },
 					
 					{ "id": 1,  "id_studant": 1, "id_tutor": 2 }, 
 					{ "id": 2,  "id_studant": 2, "id_tutor": 2 }, 
-					{ "id": 3,  "id_studant": 3, "id_tutor": 2 }, 
-					{ "id": 4,  "id_studant": 4, "id_tutor": 2 }, 
-					
-					{ "id": 1,  "id_studant": 1, "id_tutor": 3 }, 
-					{ "id": 2,  "id_studant": 2, "id_tutor": 3 }, 
 					{ "id": 3,  "id_studant": 3, "id_tutor": 3 }, 
 					{ "id": 4,  "id_studant": 4, "id_tutor": 3 }, 
 					
 					{ "id": 1,  "id_studant": 1, "id_tutor": 4 }, 
 					{ "id": 2,  "id_studant": 2, "id_tutor": 4 }, 
-					{ "id": 3,  "id_studant": 3, "id_tutor": 4 }, 
-					{ "id": 4,  "id_studant": 4, "id_tutor": 4 }, 
-					
-					{ "id": 1,  "id_studant": 1, "id_tutor": 5 }, 
-					{ "id": 2,  "id_studant": 2, "id_tutor": 5 }, 
 					{ "id": 3,  "id_studant": 3, "id_tutor": 5 }, 
 					{ "id": 4,  "id_studant": 4, "id_tutor": 5 }, 
 					
 					{ "id": 1,  "id_studant": 1, "id_tutor": 6 }, 
-					{ "id": 2,  "id_studant": 2, "id_tutor": 6 }, 
-					{ "id": 3,  "id_studant": 3, "id_tutor": 6 }, 
-					{ "id": 4,  "id_studant": 4, "id_tutor": 6 }, 
+					{ "id": 2,  "id_studant": 2, "id_tutor": 6 },  
 					
 					{ "id": 1,  "id_studant": 1, "id_tutor": 7 }, 
 					{ "id": 2,  "id_studant": 2, "id_tutor": 7 }, 
-					{ "id": 3,  "id_studant": 3, "id_tutor": 7 }, 
-					{ "id": 4,  "id_studant": 4, "id_tutor": 7 }, 
 					
 					{ "id": 1,  "id_studant": 1, "id_tutor": 8 }, 
 					{ "id": 2,  "id_studant": 2, "id_tutor": 8 }, 
-					{ "id": 3,  "id_studant": 3, "id_tutor": 8 }, 
-					{ "id": 4,  "id_studant": 4, "id_tutor": 8 },
 					
 					{ "id": 1,  "id_studant": 1, "id_tutor": 9 }, 
-					{ "id": 2,  "id_studant": 2, "id_tutor": 9 }, 
-					{ "id": 3,  "id_studant": 3, "id_tutor": 9 }, 
-					{ "id": 4,  "id_studant": 4, "id_tutor": 9 }
+					{ "id": 2,  "id_studant": 2, "id_tutor": 9 }
 					
 				   ],  
 	"cityes": [
