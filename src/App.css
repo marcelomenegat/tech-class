@@ -1,28 +1,242 @@
+@font-face{
+  font-family: "Avenir";
+  src: url("./assets/fonts/Avenir.ttc") format("truetype");
+  font-weight: normal;
+}
+
 .App {
   text-align: center;
+  font-family: 'Avenir';
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
+.header {
+  background-color: #f8f6f6;
+  height: 450px;
   padding: 20px;
-  color: white;
+  color: black;
 }
 
-.App-title {
-  font-size: 1.5em;
+.h-title {
+  font-style: bold;
 }
 
-.App-intro {
+.h-intro {
   font-size: large;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+
+/* List body*/
+.t-body {
+  position: relative;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: table !important;
+  width: 100%;
+  height: 100%;
+  max-height: 100%;  
+}
+.list-footer {
+  padding: 50px;
+}
+
+/* City container */
+.city-cont {
+  width: 100%;
+  height: 100%;
+  display: table;
+}
+
+.city-cont .row {
+  display: table-row;
+}
+
+.city-cont .cell {
+  display: table-cell;
+}
+
+.top .cell {
+  vertical-align: top;
+}
+
+.middle .cell {
+  max-width: 90%;
+  display: flex;
+}
+
+.base .cell {
+  vertical-align: bottom;
+}
+
+/*--------------------------------------------------------*/
+
+/* Shared styles */
+/* Paddings*/
+.pl-0imp {
+  padding-left: 0 !important;  
+}
+
+.pl-10 {
+  padding-left: 10px !important;  
+}
+
+.pr-0imp {
+  padding-right: 0 !important;  
+}
+
+.pr-15 {
+  padding-right: 15px;
+}
+
+.pt2-5 {
+  padding-top: 5px !important;
+}
+
+.pt-30 {
+  padding-top: 30px;
+}
+.pb-20 {
+  padding-bottom: 20px;
+}
+
+.pb-100 {
+  padding-bottom: 100px;  
+}
+
+.pt-50 {
+  padding-top: 50px;
+}
+
+/* Margins */
+.m-0 {
+  margin: 0;
+}
+
+.m-20 {
+ margin: 20px !important;
+}
+
+.ml-5 {
+  margin-left: 5px !important;
+}
+
+.mr2-5 {
+  margin-right: 5px !important;
+}
+
+.ml-15 {
+  margin-left: 15px;
+}
+
+.ml-10 {
+  margin-left: 10px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mt-15 {
+  margin-top: 15px;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+/* Borders */
+.bts-1 {
+  border-top: solid 1px  #e9e9e9;
+}  
+
+.br-25 {
+  border-radius: 50% !important;
+}
+
+/* Dimensions */
+.w-30  {
+  width: 50px;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.h-30 {
+  height: 50px;
+}
+
+.h-200 {
+    height: 200px;
+}
+
+.mh-200 {
+  min-height: 200px;
+}
+
+.mxh-200 {
+    max-height: 200px;
+}
+
+/* Display */
+.d-flex {
+  display: flex;
+}
+.d-table{
+    display: table;
+}
+
+.d-tcell {
+    display: table-cell;
+}
+
+.d-trow {
+  display: table-row;
+}
+
+/* Position */
+.p-relative {
+  position: relative;  
+}
+
+/* Align */
+.ta-left {
+  text-align: left;
+}
+
+.va-middle{
+    vertical-align: middle;
+}
+
+.va-top {
+  vertical-align: top;
+}
+
+/* Float */
+.f-right {
+  float: right;  
+}
+
+.f-left {
+  float: left;  
+}
+
+/* Misc */
+.cd-button {
+  cursor: default !important;
+}
+
+.col-sm-3 {
+  padding-right: 10px !important;
+  padding-left: 10px !important;
+}
+
+.bgc-lg {
+  background-color: #e9e9e9;
+}
+.bgc-lg2 {
+  background-color: #f8f6f6;
 }
